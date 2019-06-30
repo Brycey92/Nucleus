@@ -507,8 +507,6 @@ public class NucleusPlugin extends Nucleus {
 
         this.userCacheService.load();
         this.nameBanService.load();
-        this.generalService.loadInternal();
-        this.kitService.loadInternal();
     }
 
     @Listener
